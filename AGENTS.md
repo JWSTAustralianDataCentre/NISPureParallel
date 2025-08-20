@@ -28,3 +28,9 @@
 - Never rewrite large data files.
 - Ask before changing `pixi.toml` or Snakemake profiles.
 - Prefer `--no-lockfile-update` unless the user explicitly requests changes.
+
+## PR workflow
+- Create a feature branch `codex/<short-task-name>`.
+- Run minimal tests.
+- Commit with a clear message.
+- Open a PR and include a summary of: what changed, why, tests run, and links to CI.
